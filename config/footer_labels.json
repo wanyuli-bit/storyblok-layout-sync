@@ -1,0 +1,254 @@
+{
+  "_note": "Order follows the footer_source (DE) layout after link_rules drops are applied.",
+  "dk": {
+    "contactUs": "Kontakt os",
+    "categories": [
+      {
+        "title": "Produkter",
+        "links": [
+          "Loftplader",
+          "Frithængende flåder",
+          "Bafler",
+          "Vægpaneler og skærmvægge",
+          "Monolitiske lofter og vægge",
+          "Nedhængte skinnesystemer"
+        ]
+      },
+      {
+        "title": "Inspiration",
+        "links": [
+          "Referenceprojekter",
+          "Brancher og sektorer",
+          "Ydeevne"
+        ]
+      },
+      {
+        "title": "Ressourcer",
+        "links": [
+          "Dokumenter",
+          "Kompatibilitet mellem loftplader og skinnesystemer"
+        ]
+      },
+      {
+        "title": "Bæredygtighed",
+        "links": [
+          "Vores tilgang",
+          "EPD'er",
+          "Certificeringer",
+          "Bygningscertificeringsordninger",
+          "Hvorfor stenuld?"
+        ]
+      },
+      {
+        "title": "Kontakt",
+        "links": [
+          "Kontakt os",
+          "Rockfon Mono Acoustic-installatører"
+        ]
+      },
+      {
+        "title": "Om os",
+        "links": [
+          "God akustik får hvert øjeblik til at tælle",
+          "Ekspertpartner",
+          "Whistleblowerpolitik",
+          "Forretningsetik"
+        ]
+      }
+    ],
+    "legal": [
+      "Privatlivserklæring",
+      "Juridisk meddelelse",
+      "Vores varemærker",
+      "Cookieerklæring"
+    ]
+  },
+  "no": {
+    "contactUs": "Kontakt oss",
+    "categories": [
+      {
+        "title": "Produkter",
+        "links": [
+          "Himlingsplater",
+          "Fritthengende akustikkflåter",
+          "Bafler",
+          "Veggabsorbenter og skjermvegger",
+          "Sømløse himlinger og vegger",
+          "Nedhengt profilsystem"
+        ]
+      },
+      {
+        "title": "Inspirasjon",
+        "links": [
+          "Referanseprosjekter",
+          "Bransjer og sektorer",
+          "Egenskaper"
+        ]
+      },
+      {
+        "title": "Ressurser",
+        "links": [
+          "Dokumenter",
+          "Kompatibilitet mellom himlingsplater og profilsystemer"
+        ]
+      },
+      {
+        "title": "Bærekraft",
+        "links": [
+          "Vår tilnærming",
+          "EPD-er",
+          "Sertifiseringer",
+          "Sertifiseringsordninger for bygg",
+          "Hvorfor steinull?"
+        ]
+      },
+      {
+        "title": "Kontakt",
+        "links": [
+          "Kontakt oss",
+          "Rockfon Mono Acoustic-installatører"
+        ]
+      },
+      {
+        "title": "Om oss",
+        "links": [
+          "God akustikk skaper øyeblikk som betyr noe",
+          "Ekspertpartner",
+          "Retningslinjer for varsling",
+          "Forretningsetikk"
+        ]
+      }
+    ],
+    "legal": [
+      "Personvernerklæring",
+      "Juridisk merknad",
+      "Våre varemerker",
+      "Erklæring om informasjonskapsler"
+    ]
+  },
+  "se": {
+    "contactUs": "Kontakta oss",
+    "categories": [
+      {
+        "title": "Produkter",
+        "links": [
+          "Undertaksskivor",
+          "Akustiksegel",
+          "Akustikbafflar",
+          "Väggabsorbenter och avdelare",
+          "Sömlösa tak och väggar",
+          "Bärverk"
+        ]
+      },
+      {
+        "title": "Inspiration",
+        "links": [
+          "Referensprojekt",
+          "Segment",
+          "Egenskaper"
+        ]
+      },
+      {
+        "title": "Resurser",
+        "links": [
+          "Dokument",
+          "Kompatibilitet mellan undertaksskivor och bärverk"
+        ]
+      },
+      {
+        "title": "Hållbarhet",
+        "links": [
+          "Vårt förhållningssätt",
+          "EPD:er",
+          "Certifieringar",
+          "Byggcertifieringssystem",
+          "Varför stenull?"
+        ]
+      },
+      {
+        "title": "Kontakt",
+        "links": [
+          "Kontakta oss",
+          "Rockfon Mono Acoustic-entreprenörer"
+        ]
+      },
+      {
+        "title": "Om oss",
+        "links": [
+          "Bra akustik får varje ögonblick att räknas",
+          "Expertpartner",
+          "Visselblåsarpolicy",
+          "Affärsetik"
+        ]
+      }
+    ],
+    "legal": [
+      "Integritetspolicy",
+      "Juridisk information",
+      "Våra varumärken",
+      "Cookiedeklaration"
+    ]
+  },
+  "fi": {
+    "contactUs": "Ota yhteyttä",
+    "categories": [
+      {
+        "title": "Tuotteet",
+        "links": [
+          "Alakattolevyt",
+          "Saarekkeet",
+          "Bafflet",
+          "Seinävaimennuslevyt ja tilanjakajat",
+          "Saumattomat alakatot ja seinät",
+          "Alakattolistat"
+        ]
+      },
+      {
+        "title": "Inspiraatio",
+        "links": [
+          "Referenssit",
+          "Toimialat",
+          "Suorituskyky"
+        ]
+      },
+      {
+        "title": "Materiaalit",
+        "links": [
+          "Dokumentit",
+          "Alakattolevyjen ja listajärjestelmien yhteensopivuus"
+        ]
+      },
+      {
+        "title": "Kestävä kehitys",
+        "links": [
+          "Lähestymistapamme",
+          "EPD:t",
+          "Sertifikaatit",
+          "Rakennusten luokitusjärjestelmät",
+          "Miksi kivivilla?"
+        ]
+      },
+      {
+        "title": "Yhteystiedot",
+        "links": [
+          "Ota yhteyttä"
+        ]
+      },
+      {
+        "title": "Tietoa meistä",
+        "links": [
+          "Hyvä akustiikka tekee jokaisesta hetkestä merkityksellisen",
+          "Asiantuntijakumppani",
+          "Ilmiantokäytäntö",
+          "Liiketoiminnan eettisyys"
+        ]
+      }
+    ],
+    "legal": [
+      "Tietosuojaseloste",
+      "Oikeudellinen huomautus",
+      "Tuotemerkkimme",
+      "Evästeilmoitus"
+    ]
+  }
+}

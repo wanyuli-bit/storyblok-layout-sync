@@ -1,0 +1,35 @@
+{
+  "_note": "Paths are relative to the market folder. 'remap' replaces a path segment of the source link for a target market ('*' = all markets). 'drop' removes a menu item whose source link contains the given path.",
+  "header": {
+    "remap": {
+      "se": {
+        "acoustic-dgnb-certification": "miljöbyggnad"
+      }
+    },
+    "drop": {}
+  },
+  "footer": {
+    "remap": {
+      "*": {
+        "rockfon-mono-acoustic-verarbeiter": "rockfon-mono-acoustic-installatører"
+      },
+      "no": {
+        "good-acoustics-moments-matter": "god-akustikk-skaper-oeyeblik-som-betyr-noe"
+      },
+      "se": {
+        "good-acoustics-moments-matter": "bra-akustik-far-varje-ogonblick-att-raknas"
+      },
+      "fi": {
+        "good-acoustics-moments-matter": "hyva-akustiikka-tekee-jokaisesta-hetkesta-merkityksellisen"
+      }
+    },
+    "drop": {
+      "*": [
+        "legal/impressum"
+      ],
+      "fi": [
+        "contact-us/rockfon-mono-acoustic-verarbeiter"
+      ]
+    }
+  }
+}

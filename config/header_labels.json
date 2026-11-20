@@ -1,0 +1,345 @@
+{
+  "_note": "Order follows the header_source (DK) layout. '@category_title' = use the 'title' field of the linked product category page.",
+  "no": {
+    "menu": [
+      "Produkter",
+      "Inspirasjon",
+      "Ressurser",
+      "Bærekraft",
+      "Kontakt oss"
+    ],
+    "columns": [
+      {
+        "title": "Produkter",
+        "viewAll": "Se alle produkter",
+        "links": [
+          "@category_title",
+          "@category_title",
+          "@category_title",
+          "@category_title",
+          "@category_title",
+          "@category_title"
+        ]
+      },
+      {
+        "title": "Bruksområder",
+        "viewAll": "Se alle produkter",
+        "links": [
+          "Klasserom",
+          "Åpne kontorlandskap",
+          "Korridorer",
+          "Pasientrom"
+        ]
+      },
+      {
+        "title": "Referanseprosjekter",
+        "viewAll": "Se alle referanseprosjekter",
+        "links": [
+          "Mono Acoustic-prosjekter",
+          "Skoleprosjekter",
+          "Prosjekter med hvite himlinger",
+          "Design decoration-prosjekter",
+          "Gjenbruksprosjekter"
+        ]
+      },
+      {
+        "title": "Bransjer og sektorer",
+        "viewAll": "Se alle bransjer og sektorer",
+        "links": [
+          "Kontor",
+          "Helse",
+          "Utdanning",
+          "Handel",
+          "Fritid og sport",
+          "Industri"
+        ]
+      },
+      {
+        "title": "Egenskaper",
+        "viewAll": "Se alle egenskaper",
+        "links": [
+          "Akustikk",
+          "Brannsikkerhet",
+          "Holdbarhet og motstandsdyktighet",
+          "Helse og hygiene",
+          "Lysrefleksjon",
+          "Designfleksibilitet"
+        ]
+      },
+      {
+        "title": "Innsikt",
+        "viewAll": "Se all innsikt",
+        "links": [
+          "Blogger",
+          "Bærekraftsblogger",
+          "Blogger om himlingsideer",
+          "DGNB-sertifisering"
+        ]
+      },
+      {
+        "title": "Dokumenter",
+        "viewAll": "Se alle dokumenter",
+        "links": [
+          "Datablad",
+          "EPD-er",
+          "Monteringsanvisninger",
+          "DoP-er"
+        ]
+      },
+      {
+        "title": "FAQ",
+        "viewAll": "Se alle FAQ",
+        "links": [
+          "FAQ om montering",
+          "Hvordan finner jeg?",
+          "FAQ om brannsikkerhet"
+        ]
+      },
+      {
+        "title": "Bærekraftsdokumentasjon",
+        "viewAll": "Se all dokumentasjon",
+        "links": [
+          "EPD-er",
+          "Sertifiseringsordninger for bygg",
+          "Sertifiseringer"
+        ]
+      },
+      {
+        "title": "Bærekraft i praksis",
+        "viewAll": "Se siden om bærekraft",
+        "links": [
+          "Vår tilnærming",
+          "Steinull"
+        ]
+      }
+    ]
+  },
+  "se": {
+    "menu": [
+      "Produkter",
+      "Inspiration",
+      "Resurser",
+      "Hållbarhet",
+      "Kontakta oss"
+    ],
+    "columns": [
+      {
+        "title": "Produkter",
+        "viewAll": "Visa alla produkter",
+        "links": [
+          "@category_title",
+          "@category_title",
+          "@category_title",
+          "@category_title",
+          "@category_title",
+          "@category_title"
+        ]
+      },
+      {
+        "title": "Användningsområden",
+        "viewAll": "Visa alla produkter",
+        "links": [
+          "Klassrum",
+          "Kontorslandskap",
+          "Korridorer",
+          "Patientrum"
+        ]
+      },
+      {
+        "title": "Referensprojekt",
+        "viewAll": "Visa alla referensprojekt",
+        "links": [
+          "Mono Acoustic-projekt",
+          "Skolprojekt",
+          "Projekt med vita undertak",
+          "Design decoration-projekt",
+          "Återbruksprojekt"
+        ]
+      },
+      {
+        "title": "Segment",
+        "viewAll": "Visa alla segment",
+        "links": [
+          "Kontor",
+          "Vård och omsorg",
+          "Utbildning",
+          "Handel",
+          "Fritid och sport",
+          "Industri"
+        ]
+      },
+      {
+        "title": "Egenskaper",
+        "viewAll": "Visa alla egenskaper",
+        "links": [
+          "Akustik",
+          "Brandsäkerhet",
+          "Slitstyrka och motståndskraft",
+          "Hälsa och hygien",
+          "Ljusreflektion",
+          "Designflexibilitet"
+        ]
+      },
+      {
+        "title": "Insikter",
+        "viewAll": "Visa alla insikter",
+        "links": [
+          "Bloggar",
+          "Hållbarhetsbloggar",
+          "Bloggar om undertaksidéer",
+          "Miljöbyggnad-certifiering"
+        ]
+      },
+      {
+        "title": "Dokument",
+        "viewAll": "Visa alla dokument",
+        "links": [
+          "Datablad",
+          "EPD:er",
+          "Montageanvisningar",
+          "DoP:er"
+        ]
+      },
+      {
+        "title": "Vanliga frågor",
+        "viewAll": "Visa alla vanliga frågor",
+        "links": [
+          "Frågor om montage",
+          "Hur hittar jag?",
+          "Frågor om brandsäkerhet"
+        ]
+      },
+      {
+        "title": "Hållbarhetsdokumentation",
+        "viewAll": "Visa all dokumentation",
+        "links": [
+          "EPD:er",
+          "Byggcertifieringssystem",
+          "Certifieringar"
+        ]
+      },
+      {
+        "title": "Hållbarhet i praktiken",
+        "viewAll": "Visa sidan om hållbarhet",
+        "links": [
+          "Vårt förhållningssätt",
+          "Stenull"
+        ]
+      }
+    ]
+  },
+  "fi": {
+    "menu": [
+      "Tuotteet",
+      "Inspiraatio",
+      "Materiaalit",
+      "Kestävä kehitys",
+      "Ota yhteyttä"
+    ],
+    "columns": [
+      {
+        "title": "Tuotteet",
+        "viewAll": "Katso kaikki tuotteet",
+        "links": [
+          "@category_title",
+          "@category_title",
+          "@category_title",
+          "@category_title",
+          "@category_title",
+          "@category_title"
+        ]
+      },
+      {
+        "title": "Käyttökohteet",
+        "viewAll": "Katso kaikki tuotteet",
+        "links": [
+          "Luokkahuoneet",
+          "Avotoimistot",
+          "Käytävät",
+          "Potilashuoneet"
+        ]
+      },
+      {
+        "title": "Referenssit",
+        "viewAll": "Katso kaikki referenssit",
+        "links": [
+          "Mono Acoustic -kohteet",
+          "Koulukohteet",
+          "Valkoiset alakatot -kohteet",
+          "Design decoration -kohteet",
+          "Uudelleenkäyttökohteet"
+        ]
+      },
+      {
+        "title": "Toimialat",
+        "viewAll": "Katso kaikki toimialat",
+        "links": [
+          "Toimistot",
+          "Terveydenhuolto",
+          "Koulutus",
+          "Liiketilat",
+          "Vapaa-aika ja urheilu",
+          "Teollisuus"
+        ]
+      },
+      {
+        "title": "Suorituskyky",
+        "viewAll": "Katso kaikki edut",
+        "links": [
+          "Akustiikka",
+          "Paloturvallisuus",
+          "Pitkäikäisyys ja kestävyys",
+          "Terveys ja hygienia",
+          "Valon heijastuvuus",
+          "Suunnittelun joustavuus"
+        ]
+      },
+      {
+        "title": "Artikkelit",
+        "viewAll": "Katso kaikki artikkelit",
+        "links": [
+          "Blogit",
+          "Kestävän kehityksen blogit",
+          "Alakattoideoita",
+          "DGNB-sertifiointi"
+        ]
+      },
+      {
+        "title": "Dokumentit",
+        "viewAll": "Katso kaikki dokumentit",
+        "links": [
+          "Tuotekortit",
+          "EPD:t",
+          "Asennusohjeet",
+          "DoP:t"
+        ]
+      },
+      {
+        "title": "Usein kysytyt kysymykset",
+        "viewAll": "Katso kaikki kysymykset",
+        "links": [
+          "Kysymyksiä asennuksesta",
+          "Mistä löydän?",
+          "Kysymyksiä paloturvallisuudesta"
+        ]
+      },
+      {
+        "title": "Kestävän kehityksen dokumentaatio",
+        "viewAll": "Katso kaikki dokumentit",
+        "links": [
+          "EPD:t",
+          "Rakennusten luokitusjärjestelmät",
+          "Sertifikaatit"
+        ]
+      },
+      {
+        "title": "Kestävä kehitys käytännössä",
+        "viewAll": "Katso kestävän kehityksen sivu",
+        "links": [
+          "Lähestymistapamme",
+          "Kivivilla"
+        ]
+      }
+    ]
+  }
+}

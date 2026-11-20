@@ -1,0 +1,15 @@
+{
+  "space_id": "336169",
+  "api_base": "https://mapi.storyblok.com/v1",
+  "folder_pattern": "{market}-rockfon-international-com",
+  "layout_slug": "global/configuration/layout",
+  "header_source": "dk",
+  "footer_source": "de",
+  "footer_keep_from_target": [
+    "form",
+    "copyright",
+    "signupTitle",
+    "signupMessage",
+    "contactText"
+  ]
+}
