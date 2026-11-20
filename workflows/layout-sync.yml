@@ -1,0 +1,79 @@
+name: Storyblok Layout Sync
+
+on:
+  workflow_dispatch:
+    inputs:
+      storyblok_token:
+        description: "Storyblok Personal Access Token (one-time; not stored)"
+        required: true
+      parts:
+        description: "What to sync"
+        type: choice
+        options: ["header,footer", "header", "footer"]
+        default: "header,footer"
+      markets:
+        description: "Target markets (comma-separated)"
+        default: "dk,no,se,fi"
+      mode:
+        description: "dry-run = review only, draft = save without publishing, publish = go live"
+        type: choice
+        options: ["dry-run", "draft", "publish"]
+        default: "dry-run"
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    env:
+      RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+      MAIL_TO: ${{ secrets.MAIL_TO }}
+    steps:
+      - name: Mask token
+        run: |
+          TOKEN=$(jq -r '.inputs.storyblok_token' "$GITHUB_EVENT_PATH")
+          echo "::add-mask::$TOKEN"
+          echo "STORYBLOK_TOKEN=$TOKEN" >> "$GITHUB_ENV"
+
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Run sync
+        id: run
+        run: |
+          set +e
+          python sync_layout.py --parts "${{ inputs.parts }}" --markets "${{ inputs.markets }}" --mode "${{ inputs.mode }}" --out output
+          echo "exit_code=$?" >> "$GITHUB_OUTPUT"
+
+      - name: Upload review and backups
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: layout-sync-${{ inputs.mode }}-${{ github.run_number }}
+          path: output/
+
+      - name: Email review
+        if: always() && env.RESEND_API_KEY != ''
+        run: |
+          python - <<'PY'
+          import base64, os, requests
+          summary = open("output/summary.txt").read() if os.path.exists("output/summary.txt") else "No summary produced - check the run log."
+          att = []
+          if os.path.exists("output/layout_sync_review.xlsx"):
+              att = [{"filename": "layout_sync_review.xlsx",
+                      "content": base64.b64encode(open("output/layout_sync_review.xlsx", "rb").read()).decode()}]
+          r = requests.post("https://api.resend.com/emails",
+              headers={"Authorization": f"Bearer {os.environ['RESEND_API_KEY']}"},
+              json={"from": "Rockfon Layout Sync <onboarding@resend.dev>",
+                    "to": [x.strip() for x in os.environ["MAIL_TO"].split(",")],
+                    "subject": "Storyblok layout sync: ${{ inputs.mode }} (${{ inputs.parts }} / ${{ inputs.markets }})",
+                    "text": summary, "attachments": att})
+          print(r.status_code, r.text)
+          PY
+
+      - name: Fail if problems were found
+        if: steps.run.outputs.exit_code != '0'
+        run: exit 1
